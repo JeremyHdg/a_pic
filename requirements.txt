@@ -25,7 +25,7 @@ gcsfs
 google-cloud-storage
 mlflow
 s3fs
-streamlit
+streamlit==0.87.0
 requests
 
 # utilities
