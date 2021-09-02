@@ -10,6 +10,7 @@ pandas
 scikit-learn
 tensorflow-cpu
 opencv-python-headless
+patchify
 
 # tests/linter
 black
