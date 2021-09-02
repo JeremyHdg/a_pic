@@ -1,14 +1,14 @@
 # packaging
-pip>=9
-setuptools>=26
+pip
+setuptools
 twine
-wheel>=0.29
+wheel
 
 # data science
 numpy
 pandas
 scikit-learn
-tensorflow
+tensorflow-cpu
 opencv-python
 patchify
 
@@ -25,11 +25,11 @@ gcsfs
 google-cloud-storage
 mlflow
 s3fs
-streamlit==0.87.0
+streamlit
 requests
 
 # utilities
-six>=1.14
+six
 joblib
 memoized-property
 termcolor
