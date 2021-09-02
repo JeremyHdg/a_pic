@@ -33,7 +33,7 @@ def cropping_image(image, slice_dim=(256, 256, 3), step=256):
 
 def predict(X):
     # Load the model
-    model = keras.models.load_model("https://github.com/JeremyHdg/a_pic/blob/master/keras_model_256_93.h5")
+    model = keras.models.load_model("keras_model_256_93.h5")
     # Make prediction
     model_prediction = model.predict(X)
     # Convert the numpy prediction into encoded products
