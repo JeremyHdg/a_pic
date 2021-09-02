@@ -6,6 +6,7 @@ from tensorflow import keras
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
+import os
 
 def cropping_image(image, slice_dim=(256, 256, 3), step=256):
     '''
@@ -32,6 +33,7 @@ def cropping_image(image, slice_dim=(256, 256, 3), step=256):
 
 
 def predict(X):
+    print(os.getcwd())
     # Load the model
     model = keras.models.load_model("keras_model_256_93.h5")
     # Make prediction
