@@ -9,8 +9,7 @@ numpy
 pandas
 scikit-learn
 tensorflow-cpu
-opencv-python
-patchify
+opencv-python-headless
 
 # tests/linter
 black
